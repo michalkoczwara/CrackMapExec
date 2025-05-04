@@ -1,6 +1,6 @@
 pycrypto>=2.6
 pyasn1>=0.1.8
-gevent>=1.2.0
+gevent>=25.4.1
 requests>=2.3.0
 bs4
 netaddr
@@ -8,3 +8,4 @@ pyOpenSSL
 termcolor
 msgpack-python
 pylnk
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
